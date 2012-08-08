@@ -1,0 +1,34 @@
+August 31, 2010 Basic Auth has been deprecated. All applications must now use OAuth. Read more »   x
+
+sdtwinput Settings
+By Set Direction
+Application details
+A fancy Twitter client for the web and mobile
+Created by Eric Preston
+@Anywhere Settings
+@Anywhere is easy to deploy. You only need an API key and registered callback URL.
+API key
+PGBu2k8KvqBVPfNnvO2OwA
+Registered Callback URL
+http://twinput.vcloudlabs.com/twitauth
+The @Anywhere callback URL's domain & subdomain must match the location of @Anywhere integrations on your site. 
+You can authorize additional domains if you need to integrate with more than one site.
+OAuth 1.0a Settings
+OAuth 1.0a integrations require more work.
+Consumer key
+PGBu2k8KvqBVPfNnvO2OwA
+Consumer secret
+utkM9i16BeaN5u3AE0m6MFf7oTg9ZiA62xCKgfIYo
+Request token URL
+https://api.twitter.com/oauth/request_token
+Access token URL
+https://api.twitter.com/oauth/access_token
+Authorize URL
+https://api.twitter.com/oauth/authorize
+We support hmac-sha1 signatures. We do not support the plaintext signature method.
+Registered OAuth Callback URL
+http://twinput.vcloudlabs.com/twitauth
+General
+Access Level
+read and write
+Note: xAuth is not enabled for applications by default. See the xAuth Documentation for more information.
